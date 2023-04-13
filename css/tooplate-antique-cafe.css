@@ -17,15 +17,15 @@ p a {
 }
 
 p a:hover {
-	color: rgb(255, 0, 251);
+	color: rgb(117, 166, 230);
 }
 
-#about p a { color: rgb(235, 255, 14); }
+#about p a { color: rgb(195, 218, 19); }
 #about p a:hover { color: rgb(106, 8, 181); }
 
 #contact p a { color: #066; }
 
-footer span a { color: #FFF; }
+footer span a { color: #e01414; }
 
 .tm-logo-font {
     font-family: 'Oswald', sans-serif;
@@ -41,27 +41,32 @@ footer span a { color: #FFF; }
 }
 
 .tm-text-yellow {
-    color: rgba(0, 238, 255, 0.952);
+    color: rgba(255, 255, 255, 0.952);
 }
 
 .tm-text-gold {
-    color: #f4bf00;
+    color: #ffffff;
 }
 
 .tm-text-brown {
-    color: #000000;
+    color: #7b2692;
 }
 
 .tm-text-green {
-    color: #570d97;
+    color: #26f048;
 }
 
 a.tm-bg-green:hover {
     background-color: #0a8585;
 }
 
+
+.tm-bg-white {
+    background-color: #821a8e;
+}
+
 .tm-bg-brown {
-    background-color: #544639;
+    background-color: #7b2692;
 }
 
 .tm-bg-green {
@@ -69,7 +74,7 @@ a.tm-bg-green:hover {
 }
 
 .tm-border-gold {
-    border-color: #dadadab0;
+    border-color: #f5d6d6b0;
 }
 
 .tm-intro-width {
@@ -88,18 +93,18 @@ a.tm-bg-green:hover {
 
 input::placeholder,
 textarea::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: rgb(214, 212, 212);
+    color: rgb(211, 19, 19);
     opacity: 1; /* Firefox */
 }
   
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: rgb(214, 212, 212);
+    color: rgb(211, 14, 14);
 }
   
 input::-ms-input-placeholder,
 textarea::-ms-input-placeholder { /* Microsoft Edge */
-    color: rgb(214, 212, 212);
+    color: rgb(170, 26, 26);
 }
 
 #tm-nav {
@@ -123,6 +128,12 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 
 .tm-text-2xl {
     font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+
+.tm-sm:text-6xl {
+    font-size: 3rem;
     line-height: 2rem;
 }
 
@@ -166,7 +177,7 @@ textarea::-ms-input-placeholder { /* Microsoft Edge */
 }
 #calc_btn,#new_calc_btn {
     background-color: #0a8585;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
